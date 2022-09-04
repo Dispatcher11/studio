@@ -1,0 +1,38 @@
+%flex-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.navbar {
+    @extend %flex-layout;
+    padding: $base-padding $base-padding * 2;
+    box-shadow: $base-box-shadow;
+
+   .site-title {
+       font-size: $font-size-lg;
+   }
+   .container {
+    @extend %flex-layout;
+   }
+}
+
+@each $key, $val in $colors {
+    .navbar-#{$key} {
+        @extend .navbar;
+        background-color: $val;
+    }
+}
+
+// navbar example
+// <nav class="navbar justify-between">
+//     <div class="container">
+//       <h1 class="site-title">Logo</h1>
+//       <ul class="display-f">
+//         <li class="ml-1 text-hover-secondary"><a href="#work">Work</a></li>
+//         <li class="ml-1 text-hover-secondary"><a href="#about">About</a></li>
+//       </ul>
+//     </div>
+//   </nav>
