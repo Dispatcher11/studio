@@ -161,33 +161,33 @@ $utilities: (
 );
 
 // transitions
-@each $key, $val in $transitions {
-    $transition-types: (
-        "values": (
-            "ease": ease,
-            "ease-in": ease-in,
-            "linear": linear,
-            "ease-in-out": ease-in-out,
-            "ease-out": ease-out,
-        ),
-    );
+// @each $key, $val in $transitions {
+//     $transition-types: (
+//         "values": (
+//             "ease": ease,
+//             "ease-in": ease-in,
+//             "linear": linear,
+//             "ease-in-out": ease-in-out,
+//             "ease-out": ease-out,
+//         ),
+//     );
 
- $values: map-get($transition-types, "values");
+//  $values: map-get($transition-types, "values");
 
- @each $k, $v in $values {
-    @for $i from 0 through 100 {
-    @if ($i + $val == $i) {
-               .tran-#{$k}-#{$i} {
-            transition: ($i + s) $v;
-        } 
-    } @else {
-           .tran-#{$k}-#{$i}-#{$key} {
-            transition: ($val + $i) $v;
-        }    
-    }
-      }
- }
-}
+//  @each $k, $v in $values {
+//     @for $i from 0 through 100 {
+//     @if ($i + $val == $i) {
+//                .tran-#{$k}-#{$i} {
+//             transition: ($i + s) $v;
+//         } 
+//     } @else {
+//            .tran-#{$k}-#{$i}-#{$key} {
+//             transition: ($val + $i) $v;
+//         }    
+//     }
+//       }
+//  }
+// }
 // generate utility classes
 @each $property, $map in $utilities {
     $prefix: map-get($map, "prefix");

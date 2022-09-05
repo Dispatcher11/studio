@@ -1,9 +1,14 @@
+import Footer from './components/Footer';
+import Homebody from './components/Homebody';
+import Navbar from './components/Navbar';
 import './Styles/index.scss';
 
 function App() {
   return (
     <div className="App">
-     <h1 className="text-blue">Portraits</h1>
+     <Navbar />
+     <Homebody />
+     <Footer />
     </div>
   );
 }
