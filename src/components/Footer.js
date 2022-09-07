@@ -14,7 +14,7 @@ const Footer = () => {
                 <h6><FaFacebookSquare /></h6>
                 <h6><GoMail /></h6>
             </div>
-            <p className='font-sm mb-2 text-gray-light-6'>© 2022 by June Digan</p>
+            <p className='font-sm mb-2 text-gray-light-6'>© 2022 by Belal Elgebaly</p>
         </footer>
      );
 }
