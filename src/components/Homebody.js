@@ -15,8 +15,7 @@ function shuffle(array) {
 
   return array;
 }
-
-shuffle(icons);
+let newIcons = shuffle([...icons]);
     return ( 
         <div className="homebody">
             <div className="hero">   
@@ -30,14 +29,14 @@ shuffle(icons);
             </div>
 
             <div id="icons" className="gallery mt-1">
-                {icons.map((icon) => (
+                {newIcons.map((icon) => (
                     <div className="image-container">
-                      <Link to={"/icon" + icon["id"]}>
+                      <a href={"/icon" + icon["id"]}>
                         <img src={icon["image"]} />
                     <div className="overlay">
                            <div className="text">{icon["name"]}</div>
                     </div>
-                      </Link>
+                      </a>
                     </div>
                 ))}
             </div>           

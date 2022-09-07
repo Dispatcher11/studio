@@ -1,11 +1,12 @@
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return ( 
             <nav className="navbar justify-between mt-1">
     <div className="container">
-      <h1 className="font-xxl text-white">Iconics</h1>
+      <h1 className="font-xxl text-white"><Link to="/">Iconics</Link></h1>
       <ul className="display-f">
         <li className=" text-white text-hover-gray-light-5"><a href="#work">HOME</a></li>
         <li className="ml-4 text-white text-hover-gray-light-5"><a href="#icons">ICONS</a></li>
