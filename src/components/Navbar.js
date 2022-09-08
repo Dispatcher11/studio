@@ -9,7 +9,7 @@ const Navbar = () => {
       <h1 className="font-xxl text-white"><Link to="/">Iconics</Link></h1>
       <ul className="display-f">
         <li className=" text-white text-hover-gray-light-5"><a href="#work">HOME</a></li>
-        <li className="ml-4 text-white text-hover-gray-light-5"><a href="#icons">ICONS</a></li>
+        <li className="ml-4 text-white text-hover-gray-light-5"><a href="#posters">ICONS</a></li>
         {/* <li className="mr-4 text-white text-hover-gray-light-5"><a href="#about">ABOUT</a></li> */}
         <li className="ml-4 text-white text-hover-gray-light-5"><a href="#about">CONTACT</a></li>
       </ul>

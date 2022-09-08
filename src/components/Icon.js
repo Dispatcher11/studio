@@ -12,11 +12,9 @@ const Icon = () => {
                 <h3 className="text-white">{icons[id]["caption"]}</h3>
                 <p className="text-white">{icons[id]["body"]}</p>
             </div>
-                <div id="icons" className="gallery mt-1">
+                <div id="icons" className="details-gallery mt-1">
                 {icons[id]["images"].map((image) => (
-                    <div className="image-container">
                         <img src={image} />
-                    </div>
                 ))}
             </div>  
         </div>

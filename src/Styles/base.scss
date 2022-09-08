@@ -119,6 +119,21 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+
+  #back {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: $base-font-size;
+    .goback {
+      opacity: 0;
+      display: flex;
+    }
+    .show {
+      opacity: 1;
+    }
+  }
   
   .container {
     display: flex;
@@ -127,7 +142,7 @@ html {
     justify-content: center;
     align-items: center;
      &> * {
-      padding: 80px 5px 5px 20px;
+      padding: 100px 5px 5px 20px;
       font-size: 22px;
     }
   }
@@ -164,6 +179,9 @@ html {
       opacity: 0;
       transition: .5s ease;
       background: rgba($color: rgba(120, 5, 143, 0.954), $alpha: 0.4);
+      &:hover {
+        opacity: 1;
+      }
     }
 
     .text {
@@ -179,10 +197,7 @@ html {
       text-align: center;
       z-index: 2;
     }
-    .overlay:hover {
-      opacity: 1;
 
-    }
     
     @include xl {
       width: (97% / 4);
@@ -207,8 +222,6 @@ html {
 // Icons
 .icon {
 @extend .homebody;
-
-
    .hero {
       h1 {
     width: 40%;
@@ -251,7 +264,33 @@ html {
       object-fit: cover;
     }
   }
-  
+   }
+
+   .details-gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 7px;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    column-width: 50%;
+    
+    img {
+      width: 100%;
+    }
+
+    @include sm {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    img {
+      width: 100%;
+      padding-bottom: 0px;
+    }
+    }
    }
 
 }

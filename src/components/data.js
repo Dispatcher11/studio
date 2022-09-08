@@ -28,7 +28,11 @@ export const icons = [
         caption: "Tarantino wrote Pulp Fiction in 1992 and 1993, incorporating scenes that Avary originally wrote for True Romance",
         background: "https://pbs.twimg.com/media/FJnP7jkXwAE4fTS.jpg:large",
         images: [
-            "https://i.pinimg.com/564x/f0/8a/ae/f08aae06804423f1aee314564040bf6d.jpg",
+            "https://images7.alphacoders.com/693/693715.jpg",
+            "https://i.pinimg.com/originals/42/19/a0/4219a056a2743f1e24cd84bdd95ecf97.png",
+            "https://www.teahub.io/photos/full/295-2953284_img110-pulp-fiction-wallpaper-art.jpg",
+            "https://images5.alphacoders.com/489/489934.png",
+
         ],
         id: 2
     },
@@ -86,7 +90,11 @@ export const icons = [
         caption: "Better Call Saul is an American crime and legal drama television series created by Vince Gilligan and Peter Gould.",
         background: "https://wallpaperaccess.com/full/1091811.jpg",
         images: [
-            "https://i.pinimg.com/564x/6c/b2/e7/6cb2e75e1faaa94ad14be822d11a7aff.jpg",
+            "https://cdn.arageek.com/magazine/2020/04/Better-Call-Saul.jpg",
+            "https://cdn.enabbaladi.net/arabic/wp-content/uploads/2022/08/Better-call-Saul.jpg",
+            "https://i.ytimg.com/vi/dLm_jSBFCaY/maxresdefault.jpg",
+            "https://reso.onl/wp-content/uploads/2022/08/Better-Call-Saul-Ending-Saul-Podium.jpg",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Rhea-Seehorn-and-Bob-Odenkirk-in-Better-Call-Saul-finale.jpg?q=50&fit=crop&w=1400&dpr=1.5"
         ],
         id: 7
     },
@@ -102,7 +110,7 @@ export const icons = [
         id: 8
     },
     {
-        name: "The Joker",
+        name: "Joker",
         image: "https://i.pinimg.com/564x/13/22/f3/1322f34047a799aa2c718030b164ee21.jpg",
         body: "Set in 1981, it follows Arthur Fleck, a failed clown and aspiring stand-up comedian whose descent into insanity and nihilism inspires a violent countercultural revolution against the wealthy in a decaying Gotham City.",
         caption: "Joker is a 2019 American psychological thriller film directed and produced by Todd Phillips",
@@ -166,6 +174,30 @@ export const icons = [
             "https://i.pinimg.com/564x/58/31/42/5831422949cbe94937fa80818be56b58.jpg",
         ],
         id: 14
+    },  
+    {
+        name: "There will be blood",
+        // image: "https://i.pinimg.com/564x/9c/da/2e/9cda2ef02bc5b67699b78c9927218007.jpg",
+        image: "https://i.pinimg.com/564x/b9/72/8b/b9728b96392bdb1e9b0a8838447a8106.jpg",
+        // image: "https://i.pinimg.com/564x/17/56/ce/1756cecef4e2ca5e814f1705ee11f781.jpg",
+        body: "In 1898, Daniel Plainview finds silver while prospecting in New Mexico but breaks his leg. Dragging himself from the pit, he takes a sample to an assay office and receives a silver and gold claim. In 1902, he discovers oil near Los Angeles and establishes a drilling company. Following the death of a worker in an accident, Daniel adopts the man's orphaned son.",
+        caption: "There Will Be Blood is a 2007 American epic period drama film written and directed by Paul Thomas Anderson",
+        background: "https://cdn.wallpapersafari.com/72/41/YO2QaX.jpg",
+        images: [
+            "https://i.pinimg.com/564x/9c/da/2e/9cda2ef02bc5b67699b78c9927218007.jpg",
+        ],
+        id: 15
+    },
+    {
+        name: "Rick and Morty",
+        image: "https://i.pinimg.com/564x/71/07/d1/7107d1e976ef5e61d3e2da6dfc27d187.jpg",
+        body: "The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often travelling to other planets and dimensions through portals and on Rick's flying saucer.",
+        caption: "Rick and Morty is an internationally broadcasted American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon",
+        background: "https://wallpaperaccess.com/full/7906275.jpg",
+        images: [
+            "https://i.pinimg.com/564x/71/07/d1/7107d1e976ef5e61d3e2da6dfc27d187.jpg",
+        ],
+        id: 16
     }  
 ];
 

@@ -24,11 +24,11 @@ let newIcons = shuffle([...icons]);
                 <a href="#" className="learn font-md text-white mt-2 text-hover-gray-light-8">Learn more</a>
             </div>
 
-            <div className="banner container mt-1">
+            <div id="posters" className="banner container mt-1">
                 <h1>Movies And Series</h1>
             </div>
 
-            <div id="icons" className="gallery mt-1">
+            <div className="gallery mt-1">
                 {newIcons.map((icon) => (
                     <div className="image-container">
                       <a href={"/icon" + icon["id"]}>

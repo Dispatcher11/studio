@@ -13,12 +13,17 @@ function App() {
      <Switch>
       <Route exact path={"/"}>
        <Homebody />
+       <Footer />
       </Route>
       <Route path={"/icon:id"}>
        <Icon />
+       <Footer />
+      </Route>
+      <Route path="*">
+       <Homebody />
+       <Footer />
       </Route>
      </Switch>
-     <Footer />
     </div>  
     </Router>
 
