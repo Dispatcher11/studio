@@ -21,7 +21,7 @@ let newIcons = shuffle([...icons]);
             <div className="hero">   
             <div className="background"></div> 
                 <h1 className="text-white">Collections of the most<br /> iconic movies and series!</h1>
-                <a href="#" className="learn font-md text-white mt-2 text-hover-gray-light-8">Learn more</a>
+                <a href="#" className="learn font-md text-white text-hover-gray-light-8">Learn more</a>
             </div>
 
             <div id="posters" className="banner container mt-1">
