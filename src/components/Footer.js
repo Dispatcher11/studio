@@ -7,7 +7,6 @@ import { BsArrowLeft } from 'react-icons/bs';
 // import { Link } from 'react-router-dom';
 // import { useHistory } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { useState } from 'react';
 
 const Footer = () => {
     // const {isNum, setIsNum} = useState(false);
