@@ -88,6 +88,7 @@ html {
   
 @include xs {
   h1 {
+    margin-top: -8px;
     font-size: $base-font-size * 1.8;
   }
   ul {
@@ -101,7 +102,7 @@ html {
   }
   .socials {
     display: flex;
-    font-size: 30px * .7;
+    font-size: 30px * .6;
     p {
       margin-left: 2px;
     }
@@ -113,6 +114,7 @@ html {
 
  @include breakpoint(370px) {
   h1 {
+    margin-top: -8px;
     font-size: $base-font-size * 1.6;
   }
   ul {
@@ -126,7 +128,7 @@ html {
   }
   .socials {
     display: flex;
-    font-size: 30px * .6;
+    font-size: 30px * .5;
     p {
       margin-left: 2px;
     }
@@ -299,6 +301,12 @@ html {
     img {
       width: 100%;
       height: 100%;
+      transition: 1s .3s;
+    }
+
+    .fill {
+      transition: 1s;
+      padding: 8px;
     }
 
     .overlay {
@@ -472,6 +480,9 @@ html {
       height: 100%;
       object-fit: cover;
     }
+        //   width: 100%;
+    //   height: 100%;
+    //   object-fit: cover;
   }
    }
 

@@ -4,7 +4,8 @@ export const icons = [
         image: "https://i.pinimg.com/564x/e4/16/9f/e4169ff3db9a18fb121183989f3bc3a0.jpg",
         body: "Interstellar is a 2014 epic science fiction film co-written, directed and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.",
         caption: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-        background: "https://images.unsplash.com/photo-1623579197998-a236e1ccc5f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80",
+        background: "https://i.makeagif.com/media/6-29-2015/yCX0wT.gif",
+        // "https://media.giphy.com/media/gMH6OpOW0II80/giphy.mp4"
         images: [
             "https://images.theconversation.com/files/64754/original/wpttp7tt-1416252242.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip",
             "https://images.bauerhosting.com/legacy/empire-tmdb/films/157336/images/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",

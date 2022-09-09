@@ -1,9 +1,12 @@
 import {icons} from "./data.js";
 import { Link } from 'react-router-dom';
+import { useInView } from "react-intersection-observer";
 
 const Homebody = () => {
 
-function shuffle(array) {
+  // const {ref: f1, inView: myElementIsVisible1} = useInView();
+
+  function shuffle(array) {
   let currentIndex = array.length,
       randomIndex;
 
@@ -15,7 +18,9 @@ function shuffle(array) {
 
   return array;
 }
+
 let newIcons = shuffle([...icons]);
+
     return ( 
         <div className="homebody">
             <div className="hero">   
@@ -28,10 +33,12 @@ let newIcons = shuffle([...icons]);
                 <h1>Movies And Series</h1>
             </div>
 
+            {/* <div className="gallery mt-1" ref={f1}> */}
             <div className="gallery mt-1">
                 {newIcons.map((icon) => (
                     <div className="image-container">
                       <a href={"/icon" + icon["id"]}>
+                        {/* <img className={(myElementIsVisible1) ? '' : 'fill'} src={icon["image"]} /> */}
                         <img src={icon["image"]} />
                     <div className="overlay">
                            <div className="text">{icon["name"]}</div>
