@@ -24,6 +24,7 @@ const [muted, setMuted] = useState(true);
        <Footer />
       </Route>
       <Route path="*">
+      <Navbar muted={muted} setMuted={setMuted} />
        <Homebody muted={muted} />
        <Footer />
       </Route>
