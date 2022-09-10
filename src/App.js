@@ -18,7 +18,7 @@ const [muted, setMuted] = useState(true);
        <Homebody muted={muted} />
        <Footer />
       </Route>
-      <Route path={"/studio/icon:id"}>
+      <Route path={"/icon:id"}>
       <Navbar muted={muted} setMuted={setMuted} />
        <Icon muted={muted} />
        <Footer />
