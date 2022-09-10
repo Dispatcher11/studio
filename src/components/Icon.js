@@ -7,7 +7,7 @@ const Icon = ({muted}) => {
         <div className="icon">
             <div className="hero">   
             <video id="video" className="background"  autoPlay loop muted={muted}>
-        <source src={process.env.PUBLIC_URL + (icons[id]["background"])} type="video/mp4" />
+        {window.innerWidth > 900 && <source src={process.env.PUBLIC_URL + (icons[id]["background"])} type="video/mp4" />}
       </video>
                 <h1 className="text-white">{icons[id]["name"]}</h1> 
                 <h3 className="text-white">{icons[id]["caption"]}</h3>
