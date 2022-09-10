@@ -21,9 +21,9 @@ const Navbar = ({setMuted, muted}) => {
       
       {/* <p className='text-white'> <FaInstagram /> </p>
       <p className='text-white'> <FaFacebookF /> </p> */}
-      {!((window.location.href.indexOf("icon") > -1)) && (<div className='socials'><p className='text-white'> <FaInstagram /> </p><p className='text-white'> <FaFacebookF /> </p></div>  )}
-      {((window.location.href.indexOf("icon") > -1)) && (<div className='socials'> <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a>        </div>
- )}
+      {!((window.location.href.indexOf("icon") > -1)) && (<div className='socials'><p className='text-white'> <FaInstagram /> </p><p className='text-white'> <FaFacebookF /> </p></div>)}
+      {((window.location.href.indexOf("icon") > -1) && window.innerWidth < 800) && (<div className='socials'><p className='text-white'> <FaInstagram /> </p><p className='text-white'> <FaFacebookF /> </p></div>)}
+      {((window.location.href.indexOf("icon") > -1) && window.innerWidth > 800) && (<div className='socials'> <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a></div>)}
      
 
     </div>

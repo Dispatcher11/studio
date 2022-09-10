@@ -476,12 +476,12 @@ html {
 
   .background {
     background: black;
-    filter: brightness(100%);
-    // img {
-    //   width: 100%;
-    //   height: 100%;
-    //   object-fit: cover;
-    // }
+    filter: brightness(60%);
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
        width: 100%;
       height: 100%;
       object-fit: cover;
