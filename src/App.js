@@ -10,7 +10,7 @@ function App() {
 const [muted, setMuted] = useState(true);
 
   return (
-    <Router>
+    <Router basename="/studio">
     <div className="App">
      <Switch>
       <Route exact path={"/"}>
