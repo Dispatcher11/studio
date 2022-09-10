@@ -4,19 +4,22 @@ import Navbar from './components/Navbar';
 import Icon from './components/Icon';
 import './Styles/index.scss';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { useState } from 'react';
 
 function App() {
+const [muted, setMuted] = useState(true);
+
   return (
     <Router>
     <div className="App">
-     <Navbar />
+     <Navbar muted={muted} setMuted={setMuted} />
      <Switch>
       <Route exact path={"/"}>
        <Homebody />
        <Footer />
       </Route>
       <Route path={"/icon:id"}>
-       <Icon />
+       <Icon muted={muted} />
        <Footer />
       </Route>
       <Route path="*">

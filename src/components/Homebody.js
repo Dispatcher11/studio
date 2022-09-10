@@ -36,7 +36,7 @@ let newIcons = shuffle([...icons]);
             {/* <div className="gallery mt-1" ref={f1}> */}
             <div className="gallery mt-1">
                 {newIcons.map((icon) => (
-                    <div className="image-container">
+                    <div className="image-container" key={icon["id"]}>
                       <a href={"/icon" + icon["id"]}>
                         {/* <img className={(myElementIsVisible1) ? '' : 'fill'} src={icon["image"]} /> */}
                         <img src={icon["image"]} />

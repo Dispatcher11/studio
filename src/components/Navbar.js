@@ -1,8 +1,13 @@
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { ImVolumeMedium } from 'react-icons/im';
+import { ImVolumeMute2 } from 'react-icons/im';
 
-const Navbar = () => {
+const Navbar = ({setMuted, muted}) => {
+  const handleToggleMute = () => setMuted(current => !current);
+
     return ( 
             <nav className="navbar justify-between mt-1">
     <div className="container">
@@ -15,8 +20,10 @@ const Navbar = () => {
       </ul>
 
       <div className='socials'>
-      <p className='text-white'> <FaInstagram /> </p>
-      <p className='text-white'> <FaFacebookF /> </p>
+      {/* <p className='text-white'> <FaInstagram /> </p>
+      <p className='text-white'> <FaFacebookF /> </p> */}
+      <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a>
+
        </div>
     </div>
   </nav>
