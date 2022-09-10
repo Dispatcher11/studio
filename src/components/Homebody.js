@@ -24,20 +24,20 @@ let newIcons = shuffle([...icons]);
     return ( 
         <div className="homebody">
             <div className="hero">   
-            {/* <div className="background"></div>  */}
-            <video id="video" className="background"  autoPlay loop muted={muted}>
+            <div className="background"></div> 
+            {/* <video id="video" className="background"  autoPlay loop muted={true}>
         <source src={process.env.PUBLIC_URL + ("/videos/iconics.mp4")} type="video/mp4" />
-      </video>
+      </video> */}
                 <h1 className="text-white">Collections of the most<br /> iconic movies and series!</h1>
                 <a href="#" className="learn font-md text-white text-hover-gray-light-8">Learn more</a>
             </div>
 
-            <div id="posters" className="banner container mt-1">
+            <div className="banner container mt-1"  id="posters">
                 <h1>Movies And Series</h1>
             </div>
 
             {/* <div className="gallery mt-1" ref={f1}> */}
-            <div className="gallery mt-1">
+            <div className="gallery mt-1" >
                 {newIcons.map((icon) => (
                     <div className="image-container" key={icon["id"]}>
                       <a href={"/icon" + icon["id"]}>

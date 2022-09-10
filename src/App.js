@@ -12,13 +12,14 @@ const [muted, setMuted] = useState(true);
   return (
     <Router>
     <div className="App">
-     <Navbar muted={muted} setMuted={setMuted} />
      <Switch>
       <Route exact path={"/"}>
+      <Navbar muted={muted} setMuted={setMuted} />
        <Homebody muted={muted} />
        <Footer />
       </Route>
       <Route path={"/icon:id"}>
+      <Navbar muted={muted} setMuted={setMuted} />
        <Icon muted={muted} />
        <Footer />
       </Route>

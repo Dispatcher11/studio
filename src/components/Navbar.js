@@ -7,24 +7,25 @@ import { ImVolumeMute2 } from 'react-icons/im';
 
 const Navbar = ({setMuted, muted}) => {
   const handleToggleMute = () => setMuted(current => !current);
-
     return ( 
-            <nav className="navbar justify-between mt-1">
+            <nav className="navbar justify-between mt-1" id='nav'>
     <div className="container">
       <h1 className="font-xxl text-white"><Link to="/">Iconics</Link></h1>
       <ul className="display-f">
-        <li className="text-white text-hover-gray-light-5"><Link to="/">HOME</Link></li>
+        <li className="text-white text-hover-gray-light-5"><a href="/">HOME</a></li>
         <li className="text-white text-hover-gray-light-5"><a href="#posters">ICONS</a></li>
         {/* <li className="mr-4 text-white text-hover-gray-light-5"><a href="#about">ABOUT</a></li> */}
         <li className="text-white text-hover-gray-light-5"><a href="#about">CONTACT</a></li>
       </ul>
 
-      <div className='socials'>
+      
       {/* <p className='text-white'> <FaInstagram /> </p>
       <p className='text-white'> <FaFacebookF /> </p> */}
-      <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a>
+      {!((window.location.href.indexOf("icon") > -1)) && (<div className='socials'><p className='text-white'> <FaInstagram /> </p><p className='text-white'> <FaFacebookF /> </p></div>  )}
+      {((window.location.href.indexOf("icon") > -1)) && (<div className='socials'> <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a>        </div>
+ )}
+     
 
-       </div>
     </div>
   </nav>
      );
