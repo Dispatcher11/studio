@@ -16,7 +16,7 @@ const Footer = () => {
     //   };
 
     return ( 
-        <footer className="footer">
+        <footer id='contact' className="footer">
             <div id='back' className=' text-gray-light-3'><HashLink smooth to="/#nav"><div className={'goback ' + ((window.location.href.indexOf("icon") > -1) ? 'show' : '')}><BsArrowLeft className='font-lg text-gray mr-1' />  <div>Back</div></div></HashLink></div>
             <div className="container">
                 <h6><FaBehance /></h6>
