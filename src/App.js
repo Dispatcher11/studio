@@ -3,7 +3,7 @@ import Homebody from './components/Homebody';
 import Navbar from './components/Navbar';
 import Icon from './components/Icon';
 import './Styles/index.scss';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch} from "react-router-dom";
 import { useState } from 'react';
 
 function App() {
@@ -18,7 +18,7 @@ const [muted, setMuted] = useState(true);
        <Homebody muted={muted} />
        <Footer />
       </Route>
-      <Route path={"/icon:id"}>
+      <Route path={"/studio/icon:id"}>
       <Navbar muted={muted} setMuted={setMuted} />
        <Icon muted={muted} />
        <Footer />
@@ -32,6 +32,18 @@ const [muted, setMuted] = useState(true);
     </div>  
     </Router>
 
+    // <HashRouter>
+    //   <div className="App">
+    //     <Navbar />
+    //     <Switch>
+    //         <Route exact path="/" component={Homebody} />
+    //         <Route path='/icon:id' element={<Icon />} />   
+    //     </Switch>
+ 
+    //     <Footer />
+    //   </div>
+
+    // </HashRouter>
   );
 }
 
