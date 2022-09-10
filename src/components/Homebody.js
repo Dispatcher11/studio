@@ -42,7 +42,7 @@ let newIcons = shuffle([...icons]);
                     <div className="image-container" key={icon["id"]}>
                       <a href={"/studio/icon" + icon["id"]}>
                         {/* <img className={(myElementIsVisible1) ? '' : 'fill'} src={icon["image"]} /> */}
-                        <img src={icon["image"]} />
+                        <img src={icon["poster"]} />
                     <div className="overlay">
                            <div className="text">{icon["name"]}</div>
                     </div>
