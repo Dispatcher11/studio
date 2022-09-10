@@ -15,7 +15,7 @@ const [muted, setMuted] = useState(true);
      <Navbar muted={muted} setMuted={setMuted} />
      <Switch>
       <Route exact path={"/"}>
-       <Homebody />
+       <Homebody muted={muted} />
        <Footer />
       </Route>
       <Route path={"/icon:id"}>
@@ -23,7 +23,7 @@ const [muted, setMuted] = useState(true);
        <Footer />
       </Route>
       <Route path="*">
-       <Homebody />
+       <Homebody muted={muted} />
        <Footer />
       </Route>
      </Switch>

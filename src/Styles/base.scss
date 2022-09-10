@@ -149,11 +149,13 @@ html {
   .hero {
 
     .background {
-        background: url("https://wallpapercave.com/wp/wp7489432.jpg");
+        // background: url("https://wallpapercave.com/wp/wp7489432.jpg");
     // background: rgb(3, 3, 3);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    object-fit: cover;
+
     filter: brightness(60%);
     width: 100%;
     height: 100%;

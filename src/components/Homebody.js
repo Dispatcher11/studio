@@ -2,7 +2,7 @@ import {icons} from "./data.js";
 import { Link } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
 
-const Homebody = () => {
+const Homebody = ({muted}) => {
 
   // const {ref: f1, inView: myElementIsVisible1} = useInView();
 
@@ -24,7 +24,10 @@ let newIcons = shuffle([...icons]);
     return ( 
         <div className="homebody">
             <div className="hero">   
-            <div className="background"></div> 
+            {/* <div className="background"></div>  */}
+            <video id="video" className="background"  autoPlay loop muted={muted}>
+        <source src={process.env.PUBLIC_URL + ("/videos/iconics.mp4")} type="video/mp4" />
+      </video>
                 <h1 className="text-white">Collections of the most<br /> iconic movies and series!</h1>
                 <a href="#" className="learn font-md text-white text-hover-gray-light-8">Learn more</a>
             </div>
