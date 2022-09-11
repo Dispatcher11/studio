@@ -12,7 +12,7 @@ const Navbar = ({setMuted, muted}) => {
     <div className="container">
       <h1 className="font-xxl text-white"><Link to="/">Iconics</Link></h1>
       <ul className="display-f">
-        <li className="text-white text-hover-gray-light-5"><a href="/">HOME</a></li>
+        <li className="text-white text-hover-gray-light-5"><a href="/studio">HOME</a></li>
         <li className="text-white text-hover-gray-light-5"><a href="#posters">ICONS</a></li>
         {/* <li className="mr-4 text-white text-hover-gray-light-5"><a href="#about">ABOUT</a></li> */}
         <li className="text-white text-hover-gray-light-5"><a href="#contact">CONTACT</a></li>
@@ -22,8 +22,8 @@ const Navbar = ({setMuted, muted}) => {
       {/* <p className='text-white'> <FaInstagram /> </p>
       <p className='text-white'> <FaFacebookF /> </p> */}
       {!((window.location.href.indexOf("icon") > -1)) && (<div className='socials'><a href='https://www.instagram.com/belal_elgebaly/' target="_blank" className='text-white'> <FaInstagram /> </a></div>)}
-      {((window.location.href.indexOf("icon") > -1) && window.innerWidth < 800) && (<div className='socials'><a href='https://www.instagram.com/belal_elgebaly/' target="_blank" className='text-white'> <FaInstagram /> </a></div>)}
-      {((window.location.href.indexOf("icon") > -1) && window.innerWidth > 800) && (<div className='socials'> <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a></div>)}
+      {((window.location.href.indexOf("icon") > -1) && window.innerWidth < 720) && (<div className='socials'><a href='https://www.instagram.com/belal_elgebaly/' target="_blank" className='text-white'> <FaInstagram /> </a></div>)}
+      {((window.location.href.indexOf("icon") > -1) && window.innerWidth > 720) && (<div className='socials'> <a onClick={handleToggleMute} className="text-white">{muted ? (<ImVolumeMute2 />) : (<ImVolumeMedium />)}</a></div>)}
      
 
     </div>

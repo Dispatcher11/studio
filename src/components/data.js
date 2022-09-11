@@ -1,12 +1,12 @@
 export const icons = [
     {
         name: "Interstellar",
-        poster: "https://i.pinimg.com/564x/e4/16/9f/e4169ff3db9a18fb121183989f3bc3a0.jpg",
+        poster: "https://i.pinimg.com/564x/e9/bc/f5/e9bcf52ae9cc3e6f08dbf5f014718cf9.jpg",
         body: "Interstellar is a 2014 epic science fiction film co-written, directed and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.",
         caption: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
         video: "/videos/interstellar.mp4",
         // "https://media.giphy.com/media/gMH6OpOW0II80/giphy.mp4"
-        background: "https://images.unsplash.com/photo-1623579197998-a236e1ccc5f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80",
+        background: "https://i.pinimg.com/564x/38/7d/25/387d256efef7adb01db6cdadeac2c70c.jpg",
         images: [
             "https://images.theconversation.com/files/64754/original/wpttp7tt-1416252242.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip",
             "https://images.bauerhosting.com/legacy/empire-tmdb/films/157336/images/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
@@ -21,7 +21,7 @@ export const icons = [
         body: "The Godfather is a 1972 American crime film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo, based on Puzo's best-selling 1969 novel of the same name. The film stars Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Sterling Hayden, John Marley, Richard Conte, and Diane Keaton.",
         caption: "The Godfather is regarded as one of the greatest and most influential films ever made.",
         video: "/videos/godfather.mp4",
-        background: "https://images.hdqwalls.com/wallpapers/vito-corleone-the-godfather-4k-7k.jpg",
+        background: "https://i.pinimg.com/564x/43/81/c5/4381c5ca4817f02099aa2c2958205e89.jpg",
         images: [
             "https://images.theconversation.com/files/450047/original/file-20220304-19-1kees6u.jpg?ixlib=rb-1.1.0&rect=11%2C0%2C1985%2C1997&q=45&auto=format&w=926&fit=clip",
             "https://i0.wp.com/setthetape.com/wp-content/uploads/2018/09/the-godfather-part-ii-1200-1200-675-675-crop-000000.jpg?fit=1200%2C675",
@@ -36,13 +36,13 @@ export const icons = [
         body: "Pulp Fiction is a 1994 American black comedy crime film written and directed by Quentin Tarantino, who conceived it with Roger Avary. Starring John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman, it tells several stories of crime in Los Angeles. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.",
         caption: "Tarantino wrote Pulp Fiction in 1992 and 1993, incorporating scenes that Avary originally wrote for True Romance",
         video: "/videos/pulp-fiction.mp4",
-        background: "https://pbs.twimg.com/media/FJnP7jkXwAE4fTS.jpg:large",
+        background: "https://i.pinimg.com/564x/12/39/52/1239526321d8682325ee7d1f3a2d9448.jpg",
         images: [
             "https://m.media-amazon.com/images/M/MV5BMjAyMjUyNzg1Ml5BMl5BanBnXkFtZTgwNzAwMzg5MTE@._V1_.jpg",
             "https://thenexus.one/storage/2022/03/Pulp-Fiction-right-to-change-original-ending-with-jules-and-the-robbers.jpg",
+            "https://pbs.twimg.com/media/FJnP7jkXwAE4fTS.jpg:large",
             "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/05/Vincent-and-Jules-covered-in-blood-in-Pulp-Fiction.jpg?q=50&fit=crop&w=1590&dpr=1.5",
             "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-28174-pulp-1800-1400682121.jpg",
-            "https://images5.alphacoders.com/489/489934.png",
             "https://s3.amazonaws.com/criterion-production/images/3689-d2c017987cc7063851e4e8397839663c/Pulp_Fiction_Feature_original.jpg"
 
         ],
@@ -54,7 +54,7 @@ export const icons = [
         body: "500 Days of Summer (stylized as (500) Days of Summer) is a 2009 American romantic comedy-drama film directed by Marc Webb from a screenplay written by Scott Neustadter and Michael H. Weber, and produced by Mark Waters. The film stars Joseph Gordon-Levitt and Zooey Deschanel, and employs a nonlinear narrative structure, with the story based upon its male protagonist and his memories of a failed relationship.",
         caption: "The film is presented in a nonlinear narrative, jumping between various days within the 500 days of Tom and Summer's relationship",
         video: "/videos/smiths.mp4",
-        background: "https://blogs.bgsu.edu/rdought/files/2011/02/500-days-of-summer.jpg",
+        background: "https://i.pinimg.com/564x/62/28/e3/6228e3d712181baa2bbde72aa6cc0470.jpg",
         images: [
             "https://m.media-amazon.com/images/M/MV5BMTcwMTcwNzgyMV5BMl5BanBnXkFtZTcwMzgzNDIzMw@@._V1_.jpg",
             "https://mutantreviewers.files.wordpress.com/2009/09/500-days-of-summer.jpg?w=723&h=407",
@@ -70,7 +70,7 @@ export const icons = [
         caption: "American Psycho debuted at the Sundance Film Festival on January 21, 2000, and was released theatrically on April 14, 2000.",
         video: "/videos/american.mp4",
         // video: "https://pbs.twimg.com/media/EhJ8dPvWsAIkxVf.jpg:large",
-        background: "https://pbs.twimg.com/media/EhJ8dPvWsAIkxVf.jpg:large",
+        background: "https://i.pinimg.com/564x/77/2e/16/772e1694b9dd1a1fe47e86194ab6f7af.jpg",
         images: [
             "https://www.slashfilm.com/img/gallery/american-psycho-ending-explained/l-intro-1632250767.jpg",
             "https://cdn-www.comingsoon.net/assets/uploads/2021/04/american-psycho-bale-e1619203825116.png",
@@ -89,7 +89,7 @@ export const icons = [
         video: "/videos/fightclub.mp4",
         // video: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8370/production/_103684633_5f0c2f10-b135-4159-80df-8b685ebe8005.jpg",
 
-        background: "https://images.alphacoders.com/204/thumb-1920-204781.jpg",
+        background: "https://i.pinimg.com/564x/e3/dc/c8/e3dcc8f40eec6d1090718e9a0be24aea.jpg",
         // background: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8370/production/_103684633_5f0c2f10-b135-4159-80df-8b685ebe8005.jpg",
 
         images: [
@@ -102,11 +102,11 @@ export const icons = [
     },
     {
         name: "Breaking Bad",
-        poster: "https://i.pinimg.com/564x/68/c0/8a/68c08aefae77d84c948521095c1ec38d.jpg",
+        poster: "https://i.pinimg.com/564x/94/0e/b6/940eb63adc35205ec8445ea12061c848.jpg",
         body: "The series follows Walter White (Bryan Cranston), an underpaid, overqualified, and dispirited high-school chemistry teacher who is struggling with a recent diagnosis of stage-three lung cancer. White turns to a life of crime and partners with a former student, Jesse Pinkman (Aaron Paul), to produce and distribute crystal meth to secure his family's financial future before he dies.",
         caption: "Breaking Bad is a drama television series created and produced by Vince Gilligan.",
         video: "/videos/breakingbad.mp4",
-        background: "http://cairogossip.com/app/uploads/2022/08/AAAABbFI2wcwiGkHDdGWaw58hWgLETOBsbqqv6GbKnZFn3s_Y4fjw0Ys9DNYD5txnfV3oj9tgsBeaSnPcBOwQqQnpHVqHeQr9FtvVzaL.jpg",
+        background: "https://i.pinimg.com/564x/18/63/3a/18633a58786911008e5794a1a4cfc0ce.jpg",
         images: [
             "https://api.time.com/wp-content/uploads/2015/06/breaking-bad.jpg?quality=85&w=1867",
             "https://images.indianexpress.com/2019/01/bryan-cranston-breaking-bad-movie-759.jpg",
@@ -123,7 +123,7 @@ export const icons = [
         body: "Part of the Breaking Bad franchise, it is a spin-off, prequel and sequel to Gilligan's previous series, Breaking Bad. Set primarily in the early 2000s in Albuquerque, New Mexico, the series develops Jimmy McGill (Bob Odenkirk), an earnest lawyer and former con artist, into an egocentric criminal defense attorney known as Saul Goodman.",
         caption: "Better Call Saul is an American crime and legal drama television series created by Vince Gilligan and Peter Gould.",
         video: "/videos/bettercallsaul.mp4",
-        background: "https://wallpaperaccess.com/full/1091811.jpg",
+        background: "https://i.pinimg.com/564x/80/59/e8/8059e85b4303c002121273b622e43ad5.jpg",
         images: [
             "https://cdn.arageek.com/magazine/2020/04/Better-Call-Saul.jpg",
             "https://cdn.enabbaladi.net/arabic/wp-content/uploads/2022/08/Better-call-Saul.jpg",
@@ -139,7 +139,7 @@ export const icons = [
         body: "Set in the 1980s, primarily in the fictional town of Hawkins, Indiana, the series centers on a number of mysteries and supernatural events occurring around the town and their impact on an ensemble of child and adult characters.",
         caption: "Stranger Things is an American science fiction drama television series created by the Duffer Brothers",
         video: "/videos/strangerthings.mp4",
-        background: "https://images3.alphacoders.com/882/882548.jpg",
+        background: "https://i.pinimg.com/564x/ac/51/59/ac51593e0d98b1a8cbe45d1527d197aa.jpg",
         images: [
             "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQcSkBfVyHz0D9FJ8Z6A2cLeKezud5ZODUaFtJdWaIuVAt9N_jM89bJH4iW-dmPmok5Nndb2mVwyuCiITW3XjDgzcpvMK7wKPoQ6wlwEANd2aSQ4J9gfNCGcu9D66iWegkRejwwT5bpwKWlcFEE-u_XxdUEE.jpg?r=4df",
             "https://ichef.bbci.co.uk/news/976/cpsprodpb/A1B4/production/_124869314_068_ra02_strangerthings_s4universal-base_na_00_zxx.jpg",
@@ -170,7 +170,7 @@ export const icons = [
         body: "A 17-year-old who believes himself to be a psychopath, and Alyssa (Jessica Barden), an angry classmate who sees in James a chance to escape from her tumultuous home life. ",
         caption: "The End of the F***ing World is a British black comedy-drama television programme",
         video: "/videos/fuckingworld.mp4",
-        background: "https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/01/1515151451-end-of-the-fking-world.jpeg",
+        background: "https://i.pinimg.com/564x/d3/49/1c/d3491c571f18520c11cc897df9f93510.jpg",
         images: [
             "https://miro.medium.com/max/1400/1*b0MyynrxSU8MIUJRt9aAOg.jpeg",
             "https://depor.com/resizer/Zp2Ua1Gup6nslFj9FMJkJ82-phU=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RAZBIALBNJEXDAW7DVJMKWHM2A.jpg",
@@ -187,7 +187,7 @@ export const icons = [
         body: "Teenagers in the fictional town of East Highland seek hope while balancing the strains of love, loss, and addiction. Topics such as child abuse, drug abuse, toxic relationships, toxic positivity, hookup culture, social media, mental illness, codependency, infidelity, relapsing, repressed homosexuality, sobriety, human trafficking, domestic violence, and grief are explored.",
         caption: "Euphoria is an American teen drama television series created and principally written by Sam Levinson",
         video: "/videos/euphoria.mp4",
-        background: "https://wallpaperaccess.com/full/1663366.jpg",
+        background: "https://i.pinimg.com/564x/4e/64/b1/4e64b1e16049c241c64f0578b73dd137.jpg",
         images: [
             "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1645080244/220216-euphoria-hero_rftbb8",
             "https://www.usmagazine.com/wp-content/uploads/2021/08/Whos-Coming-Back-Everything-We-Know-About-Euphoria-Season-2-004.jpg?quality=82&strip=all",
@@ -204,7 +204,7 @@ export const icons = [
         body: "The film tells the story of retiring Detective William Somerset (Freeman), who partners with Detective David Mills (Pitt) to hunt a serial killer who uses the seven deadly sins as his motives.",
         caption: "Seven is a 1995 psychological crime thriller film directed by David Fincher",
         video: "/videos/se7en.mp4",
-        background: "https://c4.wallpaperflare.com/wallpaper/580/168/4/movie-se7en-brad-pitt-wallpaper-preview.jpg",
+        background: "https://i.pinimg.com/564x/17/7a/a3/177aa33007c55112b5c57f9918794a9f.jpg",
         images: [
             "https://halloweenyearround.files.wordpress.com/2020/09/se7en-cover.jpg?w=1440&h=768&crop=1",
             "https://onset.shotonwhat.com/p/pix/m/m1057/2014112600001210.jpg",
@@ -219,7 +219,7 @@ export const icons = [
         body: "It follows the exploits of the Peaky Blinders crime gang in the direct aftermath of the First World War. The fictional gang is loosely based on a real urban youth gang of the same name who were active in the city from the 1880s to the 1910s.",
         caption: "Peaky Blinders is a British crime drama television series created by Steven Knight. Set in Birmingham, England.",
         video: "/videos/peakyblinders.mp4",
-        background: "https://wallpapercave.com/wp/wp1890593.jpg",
+        background: "https://i.pinimg.com/564x/cc/6f/61/cc6f61ba9feb69a985494cc5ba0bfc23.jpg",
         images: [
             "https://phantom-marca.unidadeditorial.es/4ede02c9fb3939b4466344dd6709187e/resize/1320/f/jpg/assets/multimedia/imagenes/2022/04/04/16490904034742.jpg",
             "https://pbs.twimg.com/media/FO2S83UXsAIaBQU.jpg",
@@ -235,7 +235,7 @@ export const icons = [
         body: "Teen Wolf revolves around Scott McCall, a high school student living in the fictional California town of Beacon Hills. Scott becomes the eponymous teenage werewolf of the series after he is bitten by an alpha werewolf the night before his second year of high school, drastically changing his once-ordinary life.",
         caption: "Teen Wolf is an American supernatural teen drama television series developed by Jeff Davis",
         video: "/videos/teenwolf.mp4",
-        background: "https://images7.alphacoders.com/675/675786.jpg",
+        background: "https://i.pinimg.com/564x/51/43/b1/5143b10952b1f54b59207be4ea5fd100.jpg",
         images: [
             "https://www.tvinsider.com/wp-content/uploads/2021/06/TCDTEWO_EC007.jpg",
             "https://www.moviesrulz.info/wp-content/uploads/2022/07/Scott-and-Stiles-in-Teen-Wolf.jpg",
@@ -253,7 +253,7 @@ export const icons = [
         caption: "There Will Be Blood is a 2007 American epic period drama film written and directed by Paul Thomas Anderson",
         video: "/videos/therewillbeblood.mp4",
         // video: "https://cdn.wallpapersafari.com/72/41/YO2QaX.jpg",
-        background: "https://cdn.wallpapersafari.com/72/41/YO2QaX.jpg",
+        background: "https://i.pinimg.com/564x/fe/c8/7e/fec87e4b399613cf4b2577a61a4218f9.jpg",
         images: [
             "https://www.slashfilm.com/img/gallery/there-will-be-blood-ending-explained-capitalism-drinks-everybodys-milkshake/l-intro-1637529677.jpg",
             "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/526144-there-will-be-blood-paramount-c0cfe0ed18576681993146ac4d5062c0.jpg",
@@ -283,7 +283,7 @@ export const icons = [
         body: "The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption. It tells the story of banker Andy Dufresne (Tim Robbins), who is sentenced to life in Shawshank State Penitentiary for the murders of his wife and her lover, despite his claims of innocence.",
         caption: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
         video: "/videos/redemption.mp4",
-        background: "https://thecinemaholic.com/wp-content/uploads/2022/03/prison.v1-e1646133971186.jpg",
+        background: "https://i.pinimg.com/564x/07/36/e3/0736e316f455a0422a4da65be1c9e9a3.jpg",
         images: [
             "https://media.vanityfair.com/photos/541c84101019a3955fea0c49/master/pass/s-vfh-shawshank-redemption-20th-anniversary.jpg",
             "https://cdn5.digitalphotopro.com/2022/05/Shawshank-Redemption-film-tips.jpg",
@@ -313,7 +313,7 @@ export const icons = [
         body: "The film follows the life of rock and roll icon, singer, and actor Elvis Presley, told from the perspective of his manager, Colonel Tom Parker. It stars Austin Butler in the title role with Tom Hanks as Parker, while Olivia DeJonge, Helen Thomson and Richard Roxburgh co-star.",
         caption: "Elvis is a 2022 biographical musical drama film directed by Baz Luhrmann.",
         video: "/videos/elvis.mp4",
-        background: "https://www.enzasbargains.com/wp-content/uploads/2022/06/ELVIS_Triptych_Series_50s_VERT_2764x4096_DOM-scaled.jpg",
+        background: "https://i.pinimg.com/564x/98/fa/df/98fadfc9cfa7298471ff1894d2a387ac.jpg",
         images: [
             "https://media.gq-magazine.co.uk/photos/628f662f55cec32fefb8a019/master/pass/Elvis-1-.jpg",
             "https://i.ytimg.com/vi/Gp2BNHwbwvI/maxresdefault.jpg",
