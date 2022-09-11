@@ -405,5 +405,75 @@ export const icons = [
         ],
         id: 23
     }, 
+    {
+        name: "Scarface",
+        poster: "https://i.pinimg.com/564x/10/7b/a2/107ba24fda81d737107340d955f0fb5a.jpg",
+        body: "Loosely based on the 1929 novel of the same name and serving as a loose remake of the 1932 film, it tells the story of Cuban refugee Tony Montana (Al Pacino), who arrives penniless in Miami during the Mariel boatlift and becomes a powerful and extremely homicidal drug lord. The film co-stars Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio and Robert Loggia.",
+        caption: "Scarface is a 1983 American crime drama film directed by Brian De Palma and written by Oliver Stone.",
+        video: "/videos/scarface.mp4",
+        background: "https://i.pinimg.com/564x/99/c8/13/99c813da11220eef9b1fcae3df9a5142.jpg",
+        images: [
+            "https://www.articles.incluvie.com/wp-content/uploads/2021/06/Al-Pacino-Scarface-Brian-De-Palma.jpg",
+            "https://miro.medium.com/max/1400/1*gJ_dU7X04uq6wgI5hUXcSw.jpeg",
+            "https://www.shortlist.com/media/imager/202207/56708-original.jpg",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2016/08/Tony-Montana-Al-Pacino-Scarface-white-tuxedo.jpg",
+ 
+        ],
+        id: 24
+    }, 
+    {
+        name: "The Dark Knight",
+        poster: "https://i.pinimg.com/564x/15/eb/c2/15ebc23bb4fa14a7af2250a981520ed9.jpg",
+        body: "Based on the DC Comics superhero Batman, it is the sequel to Batman Begins (2005) and the second installment in The Dark Knight Trilogy. The film follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent as they form an alliance to dismantle organized crime in Gotham City.",
+        caption: "The Dark Knight is a 2008 superhero film directed by Christopher Nolan.",
+        video: "/videos/darkknight.mp4",
+        background: "https://i.pinimg.com/564x/3a/fb/50/3afb500f4ac56345d0fe5e069b1d5ea6.jpg",
+        images: [
+            "https://assets1.ignimgs.com/2018/07/17/heathjoker-blogroll-1531863270321_160w.jpg?width=1280",
+            "https://imgix.bustle.com/inverse/ca/de/af/da/89f8/49a9/9fc1/e5dfcaf5d4de/the-dark-knight-10-year-anniversary-joker.jpeg?w=1200&h=630&fit=crop&crop=faces&fm=jpg",
+            "https://www.wordonfire.org/wp-content/uploads/2022/01/jokerthedarkknight-e1643233082804.jpeg",
+            "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/joker-the-dark-knight.jpg",
+ 
+        ],
+        id: 25
+    }, 
+    {
+        name: "The Matrix",
+        poster: "https://i.pinimg.com/564x/78/97/14/789714800cec1e89e5583b66f0b9f6e7.jpg",
+        body: "The movie depicts a dystopian future in which humanity is unknowingly trapped inside a simulated reality, the Matrix, which intelligent machines have created to distract humans while using their bodies as an energy source.",
+        caption: "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis.",
+        video: "/videos/matrix.mp4",
+        background: "https://i.pinimg.com/564x/21/72/c5/2172c5c7e5cf6a851451e92a648c72ba.jpg",
+        images: [
+            "https://theubj.com/wp-content/uploads/2021/12/the-matrix-revolutions.v1.jpg",
+            "https://parade.com/.image/t_share/MTkwNTgxNDAzODk3MTExNjc3/the-matrix-movies-ranked.jpg",
+            "https://geekvibesnation.com/wp-content/uploads/2020/06/keanu-reeves-matrix-4.jpg",
+            "https://cdn.mos.cms.futurecdn.net/xUtR9aTaqj4XTDDUgWwTrC-1200-80.jpg",
+ 
+        ],
+        id: 26
+    }, 
+    {
+        name: "Game Of Thrones",
+        poster: "https://i.pinimg.com/564x/17/b2/4c/17b24c41c383ef222983ad473724b67a.jpg",
+        body: "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show. The first major arc concerns the Iron Throne of the Seven Kingdoms of Westeros through a web of political conflicts among the noble families either vying to claim the throne or fighting for independence from whoever sits on it.",
+        caption: "Game of Thrones is an fantasy drama television series adapted from A Song of Ice and Fire.",
+        video: "/videos/got.mp4",
+        background: "https://i.pinimg.com/564x/35/e3/97/35e3975103d91a5e2d000ca7db56eceb.jpg",
+        images: [
+            "https://assets.vogue.com/photos/589176397edfa70512d6493d/master/pass/jon-snow-game-of-thrones.jpg",
+            "https://www.incimages.com/uploaded_files/image/1920x1080/daenerysT_254466.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-littlefinger.jpg",
+            "https://cdn.theatlantic.com/thumbor/VkAS6EWXWJ1Tv3ckE6bHxDh0NTI=/6x174:3312x2034/1600x900/media/img/mt/2019/04/80393c4672f3dbfa94c07164fc4b90bc95f0c620a6c96900108badc1cde33d36/original.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-arya-stark.jpg",
+            "https://i.pinimg.com/originals/36/8a/35/368a35b68ebc4765d7d258e475609e63.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-ned-stark.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-samwell-tarly.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-ygritte.jpg",
+            "https://www.thewrap.com/wp-content/uploads/2019/04/every-game-of-thrones-main-character-ranked-robb-stark.jpg"
+        ],
+        id: 27
+    }, 
+    
 ];
 

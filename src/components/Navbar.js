@@ -8,7 +8,7 @@ import { ImVolumeMute2 } from 'react-icons/im';
 const Navbar = ({setMuted, muted}) => {
   const handleToggleMute = () => setMuted(current => !current);
     return ( 
-            <nav className="navbar justify-between mt-1" id='nav'>
+            <nav id='nav' className={(!(window.location.href.indexOf("icon") > -1)) ? 'tran navbar justify-between mt-1' : (muted && (window.location.href.indexOf("icon") > -1)) ? 'tran navbar justify-between mt-1' : 'o-50 tran navbar justify-between mt-1'}>
     <div className="container">
       <h1 className="font-xxl text-white"><Link to="/">Iconics</Link></h1>
       <ul className="display-f">
