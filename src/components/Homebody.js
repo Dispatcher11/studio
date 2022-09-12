@@ -29,7 +29,7 @@ let newIcons = shuffle([...icons]);
         <source src={process.env.PUBLIC_URL + ("/videos/iconics.mp4")} type="video/mp4" />
       </video> */}
                 <h1 className="text-white">Collections of the most<br /> iconic movies and series!</h1>
-                <a href="#" className="learn font-md text-white text-hover-gray-light-8">Learn more</a>
+                <a href="#posters" className="learn font-md text-white text-hover-gray-light-8">Learn more</a>
             </div>
 
             <div className="banner container mt-1"  id="posters">
