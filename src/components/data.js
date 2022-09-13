@@ -20,7 +20,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/1d/8d/d0/1d8dd098d31e041d0e7a9e432a2aeb0d.jpg",
         body: "The Godfather is a 1972 American crime film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo, based on Puzo's best-selling 1969 novel of the same name. The film stars Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Sterling Hayden, John Marley, Richard Conte, and Diane Keaton.",
         caption: "The Godfather is regarded as one of the greatest and most influential films ever made.",
-        video: "/videos/godfather.m4v",
+        video: "/videos/godfather.mp4",
         background: "https://i.pinimg.com/564x/43/81/c5/4381c5ca4817f02099aa2c2958205e89.jpg",
         images: [
             "https://images.theconversation.com/files/450047/original/file-20220304-19-1kees6u.jpg?ixlib=rb-1.1.0&rect=11%2C0%2C1985%2C1997&q=45&auto=format&w=926&fit=clip",
@@ -35,7 +35,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/f0/8a/ae/f08aae06804423f1aee314564040bf6d.jpg",
         body: "Pulp Fiction is a 1994 American black comedy crime film written and directed by Quentin Tarantino, who conceived it with Roger Avary. Starring John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman, it tells several stories of crime in Los Angeles. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.",
         caption: "Tarantino wrote Pulp Fiction in 1992 and 1993, incorporating scenes that Avary originally wrote for True Romance",
-        video: "/videos/pulp-fiction.m4v",
+        video: "/videos/pulpfiction.mp4",
         background: "https://i.pinimg.com/564x/12/39/52/1239526321d8682325ee7d1f3a2d9448.jpg",
         images: [
             "https://m.media-amazon.com/images/M/MV5BMjAyMjUyNzg1Ml5BMl5BanBnXkFtZTgwNzAwMzg5MTE@._V1_.jpg",
@@ -186,7 +186,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/52/bd/c8/52bdc8530f796e4f012ce2ae062e14ef.jpg",
         body: "Teenagers in the fictional town of East Highland seek hope while balancing the strains of love, loss, and addiction. Topics such as child abuse, drug abuse, toxic relationships, toxic positivity, hookup culture, social media, mental illness, codependency, infidelity, relapsing, repressed homosexuality, sobriety, human trafficking, domestic violence, and grief are explored.",
         caption: "Euphoria is an American teen drama television series created and principally written by Sam Levinson",
-        video: "/videos/euphoria.m4v",
+        video: "/videos/euphoria.mp4",
         background: "https://i.pinimg.com/564x/4e/64/b1/4e64b1e16049c241c64f0578b73dd137.jpg",
         images: [
             "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1645080244/220216-euphoria-hero_rftbb8",
@@ -251,7 +251,7 @@ export const icons = [
         // poster: "https://i.pinimg.com/564x/17/56/ce/1756cecef4e2ca5e814f1705ee11f781.jpg",
         body: "In 1898, Daniel Plainview finds silver while prospecting in New Mexico but breaks his leg. Dragging himself from the pit, he takes a sample to an assay office and receives a silver and gold claim. In 1902, he discovers oil near Los Angeles and establishes a drilling company. Following the death of a worker in an accident, Daniel adopts the man's orphaned son.",
         caption: "There Will Be Blood is a 2007 American epic period drama film written and directed by Paul Thomas Anderson",
-        video: "/videos/therewillbeblood.m4v",
+        video: "/videos/therewillbeblood.mp4",
         // video: "https://cdn.wallpapersafari.com/72/41/YO2QaX.jpg",
         background: "https://i.pinimg.com/564x/fe/c8/7e/fec87e4b399613cf4b2577a61a4218f9.jpg",
         images: [
@@ -312,7 +312,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/97/53/4f/97534f4fb6a215ef7767bcb04a60adf6.jpg",
         body: "The film follows the life of rock and roll icon, singer, and actor Elvis Presley, told from the perspective of his manager, Colonel Tom Parker. It stars Austin Butler in the title role with Tom Hanks as Parker, while Olivia DeJonge, Helen Thomson and Richard Roxburgh co-star.",
         caption: "Elvis is a 2022 biographical musical drama film directed by Baz Luhrmann.",
-        video: "/videos/elvis.m4v",
+        video: "/videos/elvis.mp4",
         background: "https://i.pinimg.com/564x/98/fa/df/98fadfc9cfa7298471ff1894d2a387ac.jpg",
         images: [
             "https://media.gq-magazine.co.uk/photos/628f662f55cec32fefb8a019/master/pass/Elvis-1-.jpg",
@@ -410,7 +410,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/10/7b/a2/107ba24fda81d737107340d955f0fb5a.jpg",
         body: "Loosely based on the 1929 novel of the same name and serving as a loose remake of the 1932 film, it tells the story of Cuban refugee Tony Montana (Al Pacino), who arrives penniless in Miami during the Mariel boatlift and becomes a powerful and extremely homicidal drug lord. The film co-stars Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio and Robert Loggia.",
         caption: "Scarface is a 1983 American crime drama film directed by Brian De Palma and written by Oliver Stone.",
-        video: "/videos/scarface.m4v",
+        video: "/videos/scarface.mp4",
         background: "https://i.pinimg.com/564x/99/c8/13/99c813da11220eef9b1fcae3df9a5142.jpg",
         images: [
             "https://www.articles.incluvie.com/wp-content/uploads/2021/06/Al-Pacino-Scarface-Brian-De-Palma.jpg",
@@ -426,7 +426,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/15/eb/c2/15ebc23bb4fa14a7af2250a981520ed9.jpg",
         body: "Based on the DC Comics superhero Batman, it is the sequel to Batman Begins (2005) and the second installment in The Dark Knight Trilogy. The film follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent as they form an alliance to dismantle organized crime in Gotham City.",
         caption: "The Dark Knight is a 2008 superhero film directed by Christopher Nolan.",
-        video: "/videos/darkknight.m4v",
+        video: "/videos/darkknight.mp4",
         background: "https://i.pinimg.com/564x/3a/fb/50/3afb500f4ac56345d0fe5e069b1d5ea6.jpg",
         images: [
             "https://assets1.ignimgs.com/2018/07/17/heathjoker-blogroll-1531863270321_160w.jpg?width=1280",
