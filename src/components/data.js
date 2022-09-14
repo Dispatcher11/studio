@@ -4,7 +4,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/e9/bc/f5/e9bcf52ae9cc3e6f08dbf5f014718cf9.jpg",
         body: "Interstellar is a 2014 epic science fiction film co-written, directed and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.",
         caption: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-        video: "/videos/interstellar.m4v",
+        video: "/videos/interstellar.mp4",
         // "https://media.giphy.com/media/gMH6OpOW0II80/giphy.m4v"
         background: "https://i.pinimg.com/564x/38/7d/25/387d256efef7adb01db6cdadeac2c70c.jpg",
         images: [
@@ -86,7 +86,7 @@ export const icons = [
         body: 'It is based on the 1996 novel of the same name by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. He forms a "fight club" with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with a destitute woman, Marla Singer (Bonham Carter).',
         caption: "Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt",
         // video: "https://images.alphacoders.com/614/614131.jpg",
-        video: "/videos/fightclub.m4v",
+        video: "/videos/fight.mp4",
         // video: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8370/production/_103684633_5f0c2f10-b135-4159-80df-8b685ebe8005.jpg",
 
         background: "https://i.pinimg.com/564x/e3/dc/c8/e3dcc8f40eec6d1090718e9a0be24aea.jpg",
@@ -138,7 +138,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/5a/04/ee/5a04eed619710a22f9b3736daf68087a.jpg",
         body: "Set in the 1980s, primarily in the fictional town of Hawkins, Indiana, the series centers on a number of mysteries and supernatural events occurring around the town and their impact on an ensemble of child and adult characters.",
         caption: "Stranger Things is an American science fiction drama television series created by the Duffer Brothers",
-        video: "/videos/strangerthings.m4v",
+        video: "/videos/strangerthings.mp4",
         background: "https://i.pinimg.com/564x/ac/51/59/ac51593e0d98b1a8cbe45d1527d197aa.jpg",
         images: [
             "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQcSkBfVyHz0D9FJ8Z6A2cLeKezud5ZODUaFtJdWaIuVAt9N_jM89bJH4iW-dmPmok5Nndb2mVwyuCiITW3XjDgzcpvMK7wKPoQ6wlwEANd2aSQ4J9gfNCGcu9D66iWegkRejwwT5bpwKWlcFEE-u_XxdUEE.jpg?r=4df",
@@ -169,7 +169,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/d4/fc/dc/d4fcdc3916b301c3f33094d431e91722.jpg",
         body: "A 17-year-old who believes himself to be a psychopath, and Alyssa (Jessica Barden), an angry classmate who sees in James a chance to escape from her tumultuous home life. ",
         caption: "The End of the F***ing World is a British black comedy-drama television programme",
-        video: "/videos/fuckingworld.m4v",
+        video: "/videos/end.mp4",
         background: "https://i.pinimg.com/564x/d3/49/1c/d3491c571f18520c11cc897df9f93510.jpg",
         images: [
             "https://miro.medium.com/max/1400/1*b0MyynrxSU8MIUJRt9aAOg.jpeg",
@@ -251,7 +251,7 @@ export const icons = [
         // poster: "https://i.pinimg.com/564x/17/56/ce/1756cecef4e2ca5e814f1705ee11f781.jpg",
         body: "In 1898, Daniel Plainview finds silver while prospecting in New Mexico but breaks his leg. Dragging himself from the pit, he takes a sample to an assay office and receives a silver and gold claim. In 1902, he discovers oil near Los Angeles and establishes a drilling company. Following the death of a worker in an accident, Daniel adopts the man's orphaned son.",
         caption: "There Will Be Blood is a 2007 American epic period drama film written and directed by Paul Thomas Anderson",
-        video: "/videos/therewillbeblood.mp4",
+        video: "/videos/blood.mp4",
         // video: "https://cdn.wallpapersafari.com/72/41/YO2QaX.jpg",
         background: "https://i.pinimg.com/564x/fe/c8/7e/fec87e4b399613cf4b2577a61a4218f9.jpg",
         images: [
@@ -328,7 +328,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/47/ef/f8/47eff86108cb8241ebf85600a82319bd.jpg",
         body: "The film follows the life of rock and roll icon, singer, and actor Elvis Presley, told from the perspective of his manager, Colonel Tom Parker. It stars Austin Butler in the title role with Tom Hanks as Parker, while Olivia DeJonge, Helen Thomson and Richard Roxburgh co-star.",
         caption: "Elvis is a 2022 biographical musical drama film directed by Baz Luhrmann.",
-        video: "/videos/woman.m4v",
+        video: "/videos/woman.mp4",
         background: "https://m.media-amazon.com/images/M/MV5BNTA0ODQwOTE3Ml5BMl5BanBnXkFtZTcwOTI1NTgwMw@@._V1_.jpg",
         images: [
             "https://is4-ssl.mzstatic.com/image/thumb/ADMJASB4f1USPtT4dsIkxQ/1200x675mf.jpg",
@@ -344,7 +344,7 @@ export const icons = [
         poster: "https://i.pinimg.com/564x/5f/20/8d/5f208d05d2923ecd50d6858bd1caa2ce.jpg",
         body: "Partially inspired by stories told to Mendes by his paternal grandfather Alfred about his service during World War I, the film takes place after the German retreat to the Hindenburg Line during Operation Alberich, and follows two British soldiers, Will Schofield (George MacKay) and Tom Blake (Dean-Charles Chapman), in their mission to deliver an important message to call off a doomed offensive attack.",
         caption: "1917 is a 2019 war film directed and produced by Sam Mendes, who co-wrote the film with Krysty Wilson-Cairns.",
-        video: "/videos/war.m4v",
+        video: "/videos/war.mp4",
         background: "https://i.pinimg.com/564x/ef/9d/06/ef9d068c696a77ec0f9846a078f19d52.jpg",
         images: [
             "https://i.pinimg.com/564x/1c/90/c3/1c90c372a3b53c3620aa6a916a7ea961.jpg",
