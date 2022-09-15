@@ -474,6 +474,83 @@ export const icons = [
         ],
         id: 27
     }, 
+    {
+        name: "Friends",
+        poster: "https://i.pinimg.com/564x/f7/f4/de/f7f4de8d19dfc44b29789243750fa1e2.jpg",
+        body: "With an ensemble cast starring Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry and David Schwimmer, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City.",
+        caption: "Friends is an American television sitcom created by David Crane and Marta Kauffman",
+        video: "/videos/friends.mp4",
+        background: "https://i.pinimg.com/564x/fc/f5/5d/fcf55deed8fc820224292bf2abda1b0a.jpg",
+        images: [
+            "https://i.pinimg.com/564x/1d/0d/c0/1d0dc0c1ebe4748e515503dedd463816.jpg",
+            "https://media.revistagq.com/photos/6000138d05e11da7019daf81/1:1/w_800,h_800,c_limit/ross_geller_friends_1863.jpg",
+            "https://i.pinimg.com/originals/ef/2d/46/ef2d465b319086ef8f34a21c8a54097e.jpg",
+            "https://i.pinimg.com/550x/9a/2b/ea/9a2bea6795661d05cb017f026827751e.jpg",
+            "https://i.pinimg.com/originals/28/56/ee/2856eeba3454a9a7e7ef5244090f00c3.jpg",
+            "https://pbs.twimg.com/media/FAEGblOXMAQ_Aj5.jpg"
+ 
+        ],
+        id: 28
+    }, 
+    {
+        name: "How I Met Your Mother",
+        poster: "https://i.pinimg.com/564x/bc/34/6e/bc346e742f89b3938dc37c9ca872936f.jpg",
+        body: "The series, that aired from September 19, 2005 to March 31, 2014, follows the main character, Ted Mosby, and his group of friends in New York City's Manhattan. As a framing device, Ted, in 2030, recounts to his son, Luke, and daughter, Penny, the events from September 2005 to May 2013 that led him to meet their mother.",
+        caption: "How I Met Your Mother (often abbreviated as HIMYM) is an American sitcom, created by Craig Thomas and Carter Bays for CBS.",
+        video: "/videos/himym.mp4",
+        background: "https://i.pinimg.com/564x/ba/b2/1c/bab21c954cf86af70b37bf5e0104c405.jpg",
+        images: [
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/01/Barney-Stinson-writes-on-a-napkin-in-How-I-Met-Your-Mother-Cropped.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/07/How-I-Met-Your-Mother-Jason-Segel-as-Marshall.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/05/10-Best-Fictional-TV-And-Movie-Anchors-Robin-Scherbatsky-Cropped.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/07/Ted-Mosby-Teaching.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/08/How-I-Met-Your-Mother-Lily.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/02/How-I-Met-Your-Mother-Feature.jpg?q=50&fit=contain&w=960&h=505&dpr=1.5"
+ 
+        ],
+        id: 29
+    }, 
+    {
+        name: "That '70s Show",
+        poster: "https://i.pinimg.com/564x/7f/f6/c3/7ff6c3ec885cb3adb063dadd903b76f3.jpg",
+        body: "The series focuses on the lives of a group of six teenage friends living in the fictional town of Point Place, Wisconsin, from May 17, 1976, to December 31, 1979.",
+        caption: "That '70s Show is an American television period teen sitcom",
+        video: "/videos/show.mp4",
+        background: "https://i.pinimg.com/564x/4b/84/52/4b8452925fe3cea941cfe8848adeaa81.jpg",
+        images: [
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-eric-(1).jpeg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-kelso-(1).jpeg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-jackie-1-(1).jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-laurie-(1).jpeg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-fez-(1).jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-steven-hyde-(1).jpeg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-red-forman-(1).jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-donna-(1).jpeg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/that-70s-show-bob-and-midge-(1).jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://64.media.tumblr.com/64c8521e34aade1b116d1ce1d956425a/tumblr_inline_oqug35TtKh1ukhmto_500.jpg"
+ 
+        ],
+        id: 30
+    }, 
+    {
+        name: "The Office",
+        poster: "https://i.pinimg.com/564x/60/45/77/6045775d06b825e19f7fb3907e094c93.jpg",
+        body: "The series was filmed in a single-camera setup without a studio audience or a laugh track to simulate the look of an actual documentary. The series debuted on NBC as a mid-season replacement and aired 201 episodes for its run.",
+        caption: "The Office is a mockumentary sitcom series that depicts the work lives of office employees",
+        video: "/videos/office.mp4",
+        background: "https://i.pinimg.com/564x/c7/8c/5d/c78c5d2a79e048ee3cefa08f23830f32.jpg",
+        images: [
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/The-Office-Cheese-Balls-Steve-Carell-as-Michael-Scott.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/09/Kevin-from-The-Office-holding-up-some-dollar-bills-with-a-smirk.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/01/lice-cold-open-jim-the-office.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/03/The-Office-Rainn-Wilson-as-Dwight-Schrute.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/An-image-of-Stanley-sitting-by-his-computer-in-The-Office.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+            "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/04/pam-the-office-finale-ending-last-scene-speech.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+ 
+        ],
+        id: 31
+    }, 
+
     
 ];
 
