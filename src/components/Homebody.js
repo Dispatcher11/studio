@@ -1,8 +1,23 @@
 import {icons} from "./data.js";
 import { Link } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
-const Homebody = ({muted}) => {
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { delay: 0.2, duration: .2, ease: 'easeIn'}
+  },
+  exit: {
+   opacity: 0,
+   transition: {ease: 'easeOut' } 
+  }
+}
+
+const Homebody = ({setMuted}) => {
 
   // const {ref: f1, inView: myElementIsVisible1} = useInView();
 
@@ -17,12 +32,21 @@ const Homebody = ({muted}) => {
   }
 
   return array;
-}
+};
+
+const handleClick = () => {
+  setMuted(true);
+};
 
 let newIcons = shuffle([...icons]);
 
     return ( 
-        <div className="homebody">
+        <motion.div className="homebody"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+        >
             <div className="hero">   
             <div className="background"></div> 
             {/* <video id="video" className="background"  autoPlay loop muted={true}>
@@ -39,18 +63,18 @@ let newIcons = shuffle([...icons]);
             {/* <div className="gallery mt-1" ref={f1}> */}
             <div className="gallery mt-1" >
                 {newIcons.map((icon) => (
-                    <div className="image-container" key={icon["id"]}>
-                      <a href={"/studio/icon" + icon["id"]}>
+                    <div className="image-container" key={icon["id"]} onClick={handleClick}>
+                      <HashLink to={"/icon" + icon["id"] + "/#top"}>
                         {/* <img className={(myElementIsVisible1) ? '' : 'fill'} src={icon["image"]} /> */}
                         <img src={icon["poster"]} />
                     <div className="overlay">
                            <div className="text">{icon["name"]}</div>
                     </div>
-                      </a>
+                    </HashLink>
                     </div>
                 ))}
             </div>           
-        </div>
+        </motion.div>
      );
 }
  

@@ -67,6 +67,7 @@ html {
     font-size: 30px;
   }
 
+
   @include sm {
     h1 {
       font-size: $base-font-size * 2.2;
@@ -546,4 +547,17 @@ color: white;
 
 button {
   z-index: 1;
+}
+
+
+.out {
+  position: absolute;
+  width: 0px !important;
+  height: 0px !important;
+  top: -10000px;
+  opacity: 0;
+}
+
+.active {
+  background-color: blue !important;
 }

@@ -39,7 +39,7 @@ export const icons = [
         background: "https://i.pinimg.com/564x/12/39/52/1239526321d8682325ee7d1f3a2d9448.jpg",
         images: [
             "https://m.media-amazon.com/images/M/MV5BMjAyMjUyNzg1Ml5BMl5BanBnXkFtZTgwNzAwMzg5MTE@._V1_.jpg",
-            "https://thenexus.one/storage/2022/03/Pulp-Fiction-right-to-change-original-ending-with-jules-and-the-robbers.jpg",
+            // "https://thenexus.one/storage/2022/03/Pulp-Fiction-right-to-change-original-ending-with-jules-and-the-robbers.jpg",
             "https://pbs.twimg.com/media/FJnP7jkXwAE4fTS.jpg:large",
             "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/05/Vincent-and-Jules-covered-in-blood-in-Pulp-Fiction.jpg?q=50&fit=crop&w=1590&dpr=1.5",
             "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-28174-pulp-1800-1400682121.jpg",

@@ -3,19 +3,24 @@ import Homebody from './components/Homebody';
 import Navbar from './components/Navbar';
 import Icon from './components/Icon';
 import './Styles/index.scss';
-import { BrowserRouter as Router, HashRouter, Route, Switch} from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
+const location = useLocation();
 const [muted, setMuted] = useState(true);
 
+
   return (
-    <Router basename="/studio">
-    <div className="App">
-     <Switch>
+
+      <AnimatePresence exitBeforeEnter>
+     <Switch location={location} key={location.key}>
+     {/* <Switch> */}
       <Route exact path={"/"}>
       <Navbar muted={muted} setMuted={setMuted} />
-       <Homebody muted={muted} />
+       <Homebody muted={muted} setMuted={setMuted} />
        <Footer />
       </Route>
       <Route path={"/icon:id"}>
@@ -28,25 +33,12 @@ const [muted, setMuted] = useState(true);
       </Route>
       <Route path="*">
       <Navbar muted={muted} setMuted={setMuted} />
-       <Homebody muted={muted} />
-       <Footer />
+       <Homebody muted={muted} setMuted={setMuted} />
+       <Footer setMuted={setMuted}/>
       </Route>
      </Switch>
-    </div>  
-    </Router>
-
-    // <HashRouter>
-    //   <div className="App">
-    //     <Navbar />
-    //     <Switch>
-    //         <Route exact path="/" component={Homebody} />
-    //         <Route path='/icon:id' element={<Icon />} />   
-    //     </Switch>
- 
-    //     <Footer />
-    //   </div>
-
-    // </HashRouter>
+     </AnimatePresence>
+    
   );
 }
 

@@ -1,10 +1,28 @@
+import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import {icons} from "./data.js";
 
+const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { delay: 0.2, duration: .2, ease: 'easeIn'}
+    },
+    exit: {
+     opacity: 0,
+     transition: {ease: 'easeOut' } 
+    }
+  }
+  
 const Icon = ({muted}) => {
     const { id } = useParams();
     return ( 
-        <div className="icon">
+        <motion.div className="icon"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+        >
             <div className="hero">   
             {!(window.innerWidth > 800) && <div className="background"><img src={icons[id]["background"]} alt="background" /></div>}
 
@@ -19,7 +37,7 @@ const Icon = ({muted}) => {
                         <img key={image} src={image} />
                 ))}
             </div>  
-        </div>
+        </motion.div>
      );
 }
  
