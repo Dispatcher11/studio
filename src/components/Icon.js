@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import {icons} from "./data.js";
 
+
 const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -24,7 +25,7 @@ const Icon = ({muted}) => {
         exit="exit"
         >
             <div className="hero">   
-            {!(window.innerWidth > 800) && <div className="background"><img src={icons[id]["background"]} alt="background" /></div>}
+            {!(window.innerWidth > 800) && <div className="background"><img src={(icons[id]["background"])} alt="background" /></div>}
 
            {window.innerWidth > 800 && <video id="video" className={(muted) ? 'background tran' : 'brightness background tran'}  autoPlay loop muted={muted}> <source src={process.env.PUBLIC_URL + (icons[id]["video"])} type="video/mp4" /> </video> }
            <div id="cover"></div>
