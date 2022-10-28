@@ -64,7 +64,7 @@ let newIcons = shuffle([...icons]);
             <div className="gallery mt-1" >
                 {newIcons.map((icon) => (
                     <div className="image-container" key={icon["id"]} onClick={handleClick}>
-                      <HashLink to={"/icon" + icon["id"] + "/#top"}>
+                      <HashLink to={"/icon" + icon["id"] + "#top"}>
                         {/* <img className={(myElementIsVisible1) ? '' : 'fill'} src={icon["image"]} /> */}
                         <img src={icon["poster"]} />
                     <div className="overlay">

@@ -35,7 +35,7 @@ const Icon = ({muted}) => {
             </div>
                 <div id="icons" className="details-gallery mt-1">
                 {icons[id]["images"].map((image) => (
-                        <img key={image} src={image} />
+                        <img key={image} src={image} alt="image" />
                 ))}
             </div>  
         </motion.div>
