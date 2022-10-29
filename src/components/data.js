@@ -395,8 +395,8 @@ export const icons = [
         poster: "./images/posters/scrarface.jpg",
         body: "Loosely based on the 1929 novel of the same name and serving as a loose remake of the 1932 film, it tells the story of Cuban refugee Tony Montana (Al Pacino), who arrives penniless in Miami during the Mariel boatlift and becomes a powerful and extremely homicidal drug lord. The film co-stars Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio and Robert Loggia.",
         caption: "Scarface is a 1983 American crime drama film directed by Brian De Palma and written by Oliver Stone.",
-        video: "/videos/scarface.mp4",
-        background: "./images/backgrounds/scraface.jpg",
+        video: "/videos/scrareface.mp4",
+        background: "./images/backgrounds/scrareface.jpg",
         images: [
             "./images/sups/scar.jpg",
             "./images/sups/scar1.jpeg",
